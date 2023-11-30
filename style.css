@@ -1,0 +1,2215 @@
+/* Default styles for all devices */
+* {
+  font-family: "Poppins",sans-serif;
+  margin: auto;
+  
+  a:hover {
+  animation: pulsate 1s infinite;
+  }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  }
+
+}
+
+
+#container1 {
+  width: 100%;
+  height: 490px;
+  background-image: url("img/3.png"); 
+}
+  .Teste4{   
+    width:560px;
+    color:white;
+    margin-left:370px;
+    padding:40px;
+  }
+  .Teste4 button{
+    width:280px;
+    height:60px;;
+  }
+  .Logo{
+    width:320px;
+    height:90px;
+  }
+#T1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: -1.2px;
+  }
+#Elemento {
+  background: #314f62;
+  text-align:center;
+  position:relative;
+  padding: 1em 0em 1em;  
+  }
+#Elemento1 {
+  background: #314f62;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;  
+  width:1300px;
+  position:relative;
+  }
+
+
+.Imagem{
+  width:70px;
+  height:70px;
+  margin:10px;
+  }
+.Imagem:hover {
+  animation: pulsate 1s infinite;
+  }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  }
+
+  .Imagem2{
+    width:35px;
+    height:35px;
+    margin:10px;
+    }
+  .Imagem2:hover {
+    animation: pulsate 1s infinite;
+    }
+  
+  @keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+    }
+
+.s1{
+  background:#314f62;
+  width:100%;
+  height:20px;
+  }
+.s2{
+  width:100%;
+  height:20px;
+  background:white;
+  }
+
+.ajuda {
+  background:white;
+  position:relative;
+  border-radius: 10px;
+  text-align: center;  
+  width: 500px;
+  height: 250px;
+  margin:20px;
+  }
+
+.LB1 {
+  font-weight: bold;
+  font-size: 20px;
+  }
+#servico{
+  padding:20px;
+  display:flex;
+  flex-direction:row;
+  width:1200px;
+  }
+.imgS{
+  border-radius:25px;
+  width:550px;
+  height:360px;
+  }
+  #risco{
+    display:flex;
+    flex-direction:column;
+    background: #314f62;
+    height:450px;
+  }
+  #risco .analise{
+  background: white;
+  font-size:19px;
+  width: 650px;
+  height: 240px;
+  border-radius: 25px;  
+  position: relative;
+  top:40px; 
+  padding: 20px;
+  text-align: justify;    
+    }
+  .analise h1{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    }
+.lista{
+  width:500px;
+  background:white;
+  position:relative;
+  }
+.lista-verificada {
+  list-style-type: none; /* Remove o estilo de marcador padrão */
+  padding-left: 0; /* Remove o recuo padrão da lista */
+  font-size: 20px;
+  }
+.lista-verificada li::before {
+  content: "\2713"; /* Código Unicode para o símbolo de verificado (✔) */
+  margin-right: 5px; /* Espaçamento entre o marcador e o texto do item */
+  color: #314f62; /* Cor do símbolo */
+  font-weight: bold; /* Deixa o símbolo em negrito */
+  font-size: 20px;
+  }
+.lista button{
+  margin-left:25px;
+  }
+  #somos{
+    display:flex;
+    flex-direction:row;
+    width:1200px;
+    }
+  .imgQ{
+    width:300px;
+    height:450px;
+    border-radius:20px;
+    }
+  #Texto{
+    padding:1em 0em 1em;    
+    text-align:justify;
+    font-size:18px;
+    width:610px;
+   }
+  #Texto h1{
+    text-align:center;
+   }
+  #Texto .BtnA{
+    margin-left:150px;
+    }
+#Elemento6{
+  background:#314f62;
+  text-align:center;
+  padding:20px;
+  position:relative;
+}
+
+#container4{
+    padding:20px;
+    justify-content:center;
+    position:relative;
+    display:flex;
+    position:relative;
+  }
+  .Equipe{
+    margin:10px;    
+    background:white;
+    width:300px;
+    padding:15px;
+    
+    border-radius:20px;
+    position:relative;
+  }
+  
+ 
+button{
+      font-size: 18px;
+      font-weight: 600;
+      background-color: white;
+      border-radius: 20px;
+      border: 1;
+      padding: 20px 60px;
+      cursor: pointer;
+      }    
+button img {
+  width: 16px;
+  height: 16px;
+  }
+
+button:hover {
+  animation: pulsate 1s infinite;
+  }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  }
+
+button a {
+  color: inherit;
+  text-decoration: none;
+  }
+.BtnA {
+  font-size: 18px;
+  font-weight: 600;
+  background-color:#156cb7;
+  border-radius: 20px;
+  padding: 10px 30px;
+  cursor: pointer;
+  color:white;
+  width:290px;
+  height:50px;
+  }
+
+.BtnA img {
+  width: 16px;
+  height: 16px;
+  
+  }
+
+.BtnA:hover {
+  animation: pulsate 1s infinite;
+  }
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+  }
+
+
+.BtnA a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.roda{
+  text-align:center;
+  background:#0f0f0f;
+  color:white;
+  height:10px;
+  padding:30px;
+}
+
+#contato{
+  display: flex;
+  text-align:center;
+  padding:10px;
+  justify-content:center;
+  }
+
+#email{
+  width: 400px;
+  height: 100px;
+  background:white;
+  border-radius:10px;
+  border:1px solid;
+  margin:10px;
+  box-shadow: 5px 5px 5px black;
+  
+}
+#classDeus{
+  text-align: center;
+  padding: 20px;
+  position:relative;
+}
+#classDeus button{
+  width:280px;
+  height:60px;;
+}
+
+  
+/*responsividade*/
+
+/*  --->    %810px      <--- */
+
+/*Topo 810px*/
+@media screen and (max-width:810px){
+  #container1{
+    width:100%;
+    height:330px;
+  }
+}
+@media screen and (max-width:810px){
+  .Teste4{
+    width:420px;
+    margin-left:140px;
+    font-size:14px;
+  }
+}
+@media screen and (max-width:810px){
+  .Teste4 .BtnA{
+    width:300px;
+    height:60px;
+  }
+}
+@media screen and (max-width:810px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 810px*/
+
+/*Como podemos ajudar 810px*/
+
+@media screen and (max-width: 810px){
+  #Elemento{
+    width:100%;
+    margin:0px;
+    padding: 1em 0em 1em;
+  }
+  }
+
+@media screen and (max-width: 810px){
+  #Elemento1{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    margin-left:auto;
+  }
+  }
+@media screen and (max-width:810px){
+  #Elemento1 .ajuda{
+    width:340px;
+    height: 250px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 810px*/
+
+/*Nosso Servico 810px*/
+@media screen and (max-width: 810px){
+  #servico{
+    width:100%;
+    position:relative;
+    padding:0px;
+  }
+}
+@media screen and (max-width: 810px){
+  .lista{
+    width:100%;
+    position:relative;
+    
+  }
+}
+
+@media screen and (max-width: 810px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 810px){
+  #servico .imgS{
+   width:400px;
+   height:300px;
+   padding:10px;
+   display:none;
+  }
+  }
+@media screen and (max-width:810px){
+  .lista button{
+    margin-left:230px;
+    height:60px;
+    width:300px;
+  }
+  }
+
+/*Nosso servico 810px*/
+
+/*Analise de Risco 810px*/
+@media screen and (max-width:384px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:810px){
+  #risco .analise{
+    width:700px;
+    position:relative;
+    
+    
+  }
+  }
+/*fim Analise de Risco 810px*/
+
+/*Quem somos 810px*/
+@media screen and (max-width:810px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:810px){
+  #Texto{
+    width:700px;
+    font-size:15px;
+  }
+}
+
+@media screen and (max-width:810px){
+  #Texto .BtnA{
+    margin-left:200px;
+  }
+}
+ @media screen and (max-width:810px){
+  #somos .imgQ{
+    margin-left:auto;
+    width:270px;
+    height:400px;
+    padding:10px;   
+  }
+ }
+ /*Fim Quem somos 810px*/
+
+ /*Porque somos 810px*/
+
+@media screen and (max-width:810px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:1em 0em 1em;
+    position:relative;
+  }
+}
+@media screen and (max-width:810px){
+  #container4{
+    width:790px;
+    padding:0px;
+    position:relative;
+  }
+ }
+ /*Fim Porque somos 810px*/
+
+ /*Contato 810px */
+ @media screen and (max-width:810px){
+  #classDeus{
+    width:800px;  
+    position:relative;
+    margin:0px;
+    padding:5px;
+
+  }
+ }
+
+ @media screen and (max-width:810px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    padding:20;
+    flex-direction:column;
+
+    
+  }
+ }
+
+ @media screen and (max-width:810px){
+  #email{    
+    width:300px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 810px*/
+
+ /*  --->    %800px      <--- */
+
+/*Topo 800px*/
+@media screen and (max-width:800px){
+  #container1{
+    width:100%;
+    height:330px;
+  }
+}
+@media screen and (max-width:800px){
+  .Teste4{
+    width:420px;
+    margin-left:140px;
+    font-size:14px;
+  }
+}
+@media screen and (max-width:800px){
+  .Teste4 .BtnA{
+    width:300px;
+    height:60px;
+  }
+}
+@media screen and (max-width:800px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 800px*/
+
+/*Como podemos ajudar 800px*/
+
+@media screen and (max-width: 800px){
+  #Elemento{
+    width:100%;
+    margin:0px;
+    padding: 1em 0em 1em;
+  }
+  }
+
+@media screen and (max-width: 800px){
+  #Elemento1{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    margin-left:auto;
+  }
+  }
+@media screen and (max-width:800px){
+  #Elemento1 .ajuda{
+    width:340px;
+    height: 250px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 800px*/
+
+/*Nosso Servico 800px*/
+@media screen and (max-width: 800px){
+  #servico{
+    width:100%;
+    position:relative;
+    padding: 1em 0em 1em;
+  }
+}
+@media screen and (max-width: 800px){
+  .lista{
+    width:100%;
+    position:relative;
+    
+  }
+}
+
+@media screen and (max-width: 800px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 800px){
+  #servico .imgS{
+   width:400px;
+   height:300px;
+   padding:10px;
+   display:none;
+  }
+  }
+@media screen and (max-width:800px){
+  .lista button{
+    margin-left:230px;
+    height:60px;
+    width:300px;
+  }
+  }
+
+/*Nosso servico 800px*/
+
+/*Analise de Risco 800px*/
+@media screen and (max-width:384px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:800px){
+  #risco .analise{
+    width:700px;
+    position:relative;
+    
+    
+  }
+  }
+/*fim Analise de Risco 800px*/
+
+/*Quem somos 800px*/
+@media screen and (max-width:800px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:800px){
+  #Texto{
+    width:700px;
+    font-size:15px;
+  }
+}
+
+@media screen and (max-width:800px){
+  #Texto .BtnA{
+    margin-left:200px;
+  }
+}
+ @media screen and (max-width:800px){
+  #somos .imgQ{
+    margin-left:auto;
+    width:270px;
+    height:400px;
+    padding:10px;   
+  }
+ }
+ /*Fim Quem somos 800px*/
+
+ /*Porque somos 800px*/
+
+@media screen and (max-width:800px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:1em 0em 1em;
+    position:relative;
+  }
+}
+@media screen and (max-width:800px){
+  #container4{
+    width:790px;
+    padding:0px;
+    position:relative;
+  }
+ }
+ /*Fim Porque somos 800px*/
+
+ /*Contato 800px */
+ @media screen and (max-width:800px){
+  #classDeus{
+    width:100%;  
+    position:relative;
+    margin:0px;
+    padding:1em 0em 1em ;
+
+  }
+ }
+
+ @media screen and (max-width:800px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    padding:20;
+    flex-direction:column;    
+  }
+ }
+
+ @media screen and (max-width:800px){
+  #email{    
+    width:300px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 800px*/
+
+/* ---> %428px <--- */
+
+/*Topo 428px*/
+@media screen and (max-width:428px){
+  #container1{
+    width:100%;
+    height:330px;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width:428px){
+  .Teste4{
+    width:350px;
+    margin-left:-18px;
+    font-size:13px;
+  }
+}
+@media screen and (max-width:428px){
+  .Teste4 .BtnA{
+    width:275px;
+    height:50px;
+  }
+}
+@media screen and (max-width:428px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 428px*/
+
+/*Como podemos ajudar 428px*/
+
+@media screen and (max-width: 428px){
+  #Elemento{
+    width:100%;
+    padding:1em 0em 1em;
+    flex-direction:column;
+  }
+  }
+
+@media screen and (max-width: 428px){
+  #Elemento1{ 
+    width:380px; 
+    margin:13px;   
+    flex-direction:column;
+  }
+  }
+@media screen and (max-width:428px){
+  #Elemento1 .ajuda{
+    width:340px;
+    height: 250px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 428px*/
+
+/*Nosso Servico 428px*/
+@media screen and (max-width: 428px){
+  #servico{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width: 428px){
+  .lista{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:10px;
+  }
+}
+
+@media screen and (max-width: 428px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 428px){
+  #servico .imgS{
+   display:none;
+  }
+  }
+@media screen and (max-width:428px){
+  .lista button{
+    margin:40px;
+  }
+  }
+
+/*Nosso servico 428px*/
+
+/*Analise de Risco 428px*/
+@media screen and (max-width:428px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:428px){
+  #risco .analise{
+    width:300px;
+    height:400px;
+    position:relative;
+    
+  }
+  }
+/*fim Analise de Risco 428px*/
+
+/*Quem somos 428px*/
+@media screen and (max-width:428px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:428px){
+  #Texto{
+    padding:1em 0em 2em;
+    width:400px;
+    font-size:14px;
+    margin-left:5px;
+  }
+}
+
+@media screen and (max-width:428px){
+  #Texto .BtnA{
+    margin-left:40px;
+  }
+}
+ @media screen and (max-width:428px){
+  #somos .imgQ{
+    margin-left:55px;
+    width:270px;
+    height:400px; 
+    padding:0em 0em 1em;  
+  }
+ }
+ /*Fim Quem somos 428px*/
+
+ /*Porque somos 428px*/
+
+@media screen and (max-width:428px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:1em 0em 1em;
+    position:relative;
+  }
+}
+
+@media screen and (max-width:428px){
+  #container4{
+    width:350px;
+    padding:0px;
+    position:relative;
+    flex-direction:column;
+  }
+ }
+ /*Fim Porque somos 428px*/
+
+ /*Contato 428px */
+ @media screen and (max-width:428px){
+  #classDeus{
+    width:410px;  
+    position:relative;
+    margin:0px;
+    padding:1em 0em 1em;
+
+  }
+ }
+ @media screen and (max-width:428px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    flex-direction:column;
+    padding:1em 0em 1em;
+    height:250px;
+
+    
+  }
+ }
+
+ @media screen and (max-width:428px){
+  #email{    
+    width:290px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 428px*/
+
+/* ---> %414px <--- */
+
+/*Topo 414px*/
+@media screen and (max-width:414px){
+  #container1{
+    width:100%;
+    height:330px;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width:414px){
+  .Teste4{
+    width:350px;
+    margin-left:-18px;
+    font-size:13px;
+  }
+}
+@media screen and (max-width:414px){
+  .Teste4 .BtnA{
+    width:275px;
+    height:50px;
+  }
+}
+@media screen and (max-width:414px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 414px*/
+
+/*Como podemos ajudar 414px*/
+
+@media screen and (max-width: 414px){
+  #Elemento{
+    width:100%;
+    padding:1em 0em 1em;
+    flex-direction:column;
+  }
+  }
+
+@media screen and (max-width: 414px){
+  #Elemento1{ 
+    width:380px; 
+    margin:13px;   
+    flex-direction:column;
+  }
+  }
+@media screen and (max-width:414px){
+  #Elemento1 .ajuda{
+    width:340px;
+    height: 250px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 414px*/
+
+/*Nosso Servico 414px*/
+@media screen and (max-width: 414px){
+  #servico{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width: 414px){
+  .lista{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:10px;
+  }
+}
+
+@media screen and (max-width: 414px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 414px){
+  #servico .imgS{
+   display:none;
+  }
+  }
+@media screen and (max-width:414px){
+  .lista button{
+    margin:40px;
+  }
+  }
+
+/*Nosso servico 414px*/
+
+/*Analise de Risco 414px*/
+@media screen and (max-width:414px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:414px){
+  #risco .analise{
+    width:300px;
+    height:400px;
+    position:relative;
+    
+  }
+  }
+/*fim Analise de Risco 414px*/
+
+/*Quem somos 414px*/
+@media screen and (max-width:414px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:414px){
+  #Texto{
+    padding:1em 0em 2em;
+    width:400px;
+    font-size:14px;
+    margin-left:5px;
+  }
+}
+
+@media screen and (max-width:414px){
+  #Texto .BtnA{
+    margin-left:40px;
+  }
+}
+ @media screen and (max-width:414px){
+  #somos .imgQ{
+    margin-left:55px;
+    width:270px;
+    height:400px; 
+    padding:0em 0em 1em;  
+  }
+ }
+ /*Fim Quem somos 414px*/
+
+ /*Porque somos 414px*/
+
+@media screen and (max-width:414px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:1em 0em 1em;
+    position:relative;
+  }
+}
+
+@media screen and (max-width:414px){
+  #container4{
+    width:350px;
+    padding:0px;
+    position:relative;
+    flex-direction:column;
+  }
+ }
+ /*Fim Porque somos 414px*/
+
+ /*Contato 414px */
+ @media screen and (max-width:414px){
+  #classDeus{
+    width:410px;  
+    position:relative;
+    margin:0px;
+    padding:1em 0em 1em;
+
+  }
+ }
+ @media screen and (max-width:414px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    flex-direction:column;
+    padding:1em 0em 1em;
+    height:250px;
+
+    
+  }
+ }
+
+ @media screen and (max-width:414px){
+  #email{    
+    width:290px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 414px*/
+
+/*  --->    %412px      <--- */
+
+/*Topo 412px*/
+@media screen and (max-width:412px){
+  #container1{
+    width:100%;
+    height:330px;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width:412px){
+  .Teste4{
+    width:350px;
+    margin-left:-18px;
+    font-size:13px;
+  }
+}
+@media screen and (max-width:412px){
+  .Teste4 .BtnA{
+    width:275px;
+    height:50px;
+  }
+}
+@media screen and (max-width:412px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 412px*/
+
+/*Como podemos ajudar 412px*/
+
+@media screen and (max-width: 412px){
+  #Elemento{
+    width:100%;
+    padding:1em 0em 1em;
+    flex-direction:column;
+  }
+  }
+
+@media screen and (max-width: 412px){
+  #Elemento1{ 
+    width:380px;    
+    padding:0px;
+    flex-direction:column;
+    margin-left:auto;
+  }
+  }
+@media screen and (max-width:412px){
+  #Elemento1 .ajuda{
+    width:340px;
+    height: 250px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 412px*/
+
+/*Nosso Servico 412px*/
+@media screen and (max-width: 412px){
+  #servico{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width: 412px){
+  .lista{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:10px;
+  }
+}
+
+@media screen and (max-width: 412px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 412px){
+  #servico .imgS{
+   display:none;
+  }
+  }
+@media screen and (max-width:412px){
+  .lista button{
+    margin:30px;
+  }
+  }
+
+/*Nosso servico 412px*/
+
+/*Analise de Risco 412px*/
+@media screen and (max-width:412px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:412px){
+  #risco .analise{
+    width:300px;
+    height:400px;
+    position:relative;
+    
+  }
+  }
+/*fim Analise de Risco 412px*/
+
+/*Quem somos 412px*/
+@media screen and (max-width:412px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:412px){
+  #Texto{
+    padding:1em 0em 2em;
+    height:400px;
+    width:400px;
+    font-size:14px;
+    margin-left:5px;
+  }
+}
+
+@media screen and (max-width:412px){
+  #Texto .BtnA{
+    margin-left:40px;
+  }
+}
+ @media screen and (max-width:412px){
+  #somos .imgQ{
+    margin-left:50px;
+    width:270px;
+    height:400px;
+    padding:10px;   
+  }
+ }
+ /*Fim Quem somos 412px*/
+
+ /*Porque somos 412px*/
+
+@media screen and (max-width:412px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:1em 0em 1em;
+    position:relative;
+  }
+}
+
+@media screen and (max-width:412px){
+  #container4{
+    width:350px;
+    padding:0px;
+    position:relative;
+    flex-direction:column;
+  }
+ }
+ /*Fim Porque somos 412px*/
+
+ /*Contato 412px */
+ @media screen and (max-width:412px){
+  #classDeus{
+    width:410px;  
+    position:relative;
+    margin:0px;
+    padding:1em 0em 1em;
+
+  }
+ }
+ @media screen and (max-width:412px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    flex-direction:column;
+    padding:auto;
+    height:250px;
+
+    
+  }
+ }
+
+ @media screen and (max-width:412px){
+  #email{    
+    width:290px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 412px*/
+
+ /*  --->    %390px      <--- */
+
+ /*Topo 390px*/
+ @media screen and (max-width:390px){
+  #container1{
+    width:100%;
+    height:330px;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width:390px){
+  .Teste4{
+    width:323px;
+    margin-left:-30px;
+    font-size:12px;
+  }
+}
+@media screen and (max-width:390px){
+  .Teste4 .BtnA{
+    width:275px;
+    height:50px;
+  }
+}
+@media screen and (max-width:390px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 390px*/
+
+/*Como podemos ajudar 390px*/
+
+@media screen and (max-width: 390px){
+  #Elemento{
+    width:100%;
+    height:1310px;
+    margin:0px;
+    padding:0px;
+    flex-direction:column;
+    margin-left:auto;
+  }
+  }
+
+@media screen and (max-width: 390px){
+  #Elemento1{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column;
+    margin-left:auto;
+  }
+  }
+@media screen and (max-width:390px){
+  #Elemento1 .ajuda{
+    width:340px;
+    height: 250px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 390px*/
+
+/*Nosso Servico 390px*/
+@media screen and (max-width: 390px){
+  #servico{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width: 390px){
+  .lista{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:10px;
+  }
+}
+
+@media screen and (max-width: 390px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 390px){
+  #servico .imgS{
+   display:none;
+  }
+  }
+@media screen and (max-width:390px){
+  .lista button{
+    text-align:center;
+  }
+  }
+
+/*Nosso servico 390px*/
+
+/*Analise de Risco 390px*/
+@media screen and (max-width:390px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:390px){
+  #risco .analise{
+    width:300px;
+    height:400px;
+    position:relative;
+    
+  }
+  }
+/*fim Analise de Risco 390px*/
+
+/*Quem somos 390px*/
+@media screen and (max-width:390px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:390px){
+  #Texto{
+    padding:0px;
+    height:400px;
+    width:365px;
+    font-size:13px;
+    margin-left:5px;
+  }
+}
+
+@media screen and (max-width:390px){
+  #Texto .BtnA{
+    margin-left:40px;
+  }
+}
+ @media screen and (max-width:390px){
+  #somos .imgQ{
+    margin-left:auto;
+    width:270px;
+    height:400px;
+    padding:10px;   
+  }
+ }
+ /*Fim Quem somos 390px*/
+
+ /*Porque somos 390px*/
+
+@media screen and (max-width:390px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:1em 0em 1em;
+    position:relative;
+  }
+}
+
+@media screen and (max-width:390px){
+  #container4{
+    width:350px;
+    padding:0px;
+    position:relative;
+    flex-direction:column;
+  }
+ }
+ /*Fim Porque somos 390px*/
+
+ /*Contato 390px */
+ @media screen and (max-width:390px){
+  #classDeus{
+    width:390px;
+  
+    position:relative;
+    margin:0px;
+    padding:1em 0em 1em;
+
+  }
+ }
+
+ @media screen and (max-width:390px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    flex-direction:column;
+    padding:auto;
+    height:250px;
+
+    
+  }
+ }
+
+ @media screen and (max-width:390px){
+  #email{    
+    width:290px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 390px*/
+
+ /*  --->    %384px      <--- */
+
+ /*Topo 384px*/
+@media screen and (max-width:384px){
+  #container1{
+    width:100%;
+    height:330px;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width:384px){
+  .Teste4{
+    width:323px;
+    margin-left:-30px;
+    font-size:12px;
+  }
+}
+@media screen and (max-width:384px){
+  .Teste4 .BtnA{
+    width:275px;
+    height:50px;
+  }
+}
+@media screen and (max-width:384px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 384px*/
+
+/*Como podemos ajudar 384px*/
+
+@media screen and (max-width: 384px){
+  #Elemento{
+    width:100%;
+    height:1310px;
+    margin:0px;
+    padding:0px;
+    flex-direction:column;
+    margin-left:auto;
+  }
+  }
+
+@media screen and (max-width: 384px){
+  #Elemento1{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column;
+    margin-left:auto;
+  }
+  }
+@media screen and (max-width:384px){
+  #Elemento1 .ajuda{
+    width:340px;
+    height: 250px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 384px*/
+
+/*Nosso Servico 384px*/
+@media screen and (max-width: 384px){
+  #servico{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width: 384px){
+  .lista{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:10px;
+  }
+}
+
+@media screen and (max-width: 384px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 384px){
+  #servico .imgS{
+   display:none;
+  }
+  }
+@media screen and (max-width:384px){
+  .lista button{
+    text-align:center;
+  }
+  }
+
+/*Nosso servico 384px*/
+
+/*Analise de Risco 384px*/
+@media screen and (max-width:384px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:384px){
+  #risco .analise{
+    width:300px;
+    height:400px;
+    position:relative;
+    
+  }
+  }
+/*fim Analise de Risco 384px*/
+
+/*Quem somos 384px*/
+@media screen and (max-width:384px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:384px){
+  #Texto{
+    padding:0px;
+    height:400px;
+    width:365px;
+    font-size:13px;
+    margin-left:5px;
+  }
+}
+
+@media screen and (max-width:384px){
+  #Texto .BtnA{
+    margin-left:40px;
+  }
+}
+ @media screen and (max-width:384px){
+  #somos .imgQ{
+    margin-left:auto;
+    width:270px;
+    height:400px;
+    padding:10px;   
+  }
+ }
+ /*Fim Quem somos 384px*/
+
+ /*Porque somos 384px*/
+
+@media screen and (max-width:384px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    position:relative;
+  }
+}
+
+@media screen and (max-width:384px){
+  #container4{
+    width:350px;
+    padding:0px;
+    position:relative;
+    flex-direction:column;
+  }
+ }
+ /*Fim Porque somos 384px*/
+
+ /*Contato 384px */
+ @media screen and (max-width:384px){
+  #classDeus{
+    width:384px;
+  
+    position:relative;
+    margin:0px;
+    padding:0px;
+
+  }
+ }
+
+ @media screen and (max-width:384px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    flex-direction:column;
+    padding:auto;
+    height:250px;
+
+    
+  }
+ }
+
+ @media screen and (max-width:384px){
+  #email{    
+    width:290px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 384px*/
+
+/*  --->    %375px      <--- */
+
+
+/*Topo 375px*/
+@media screen and (max-width:375px){
+  #container1{
+    width:100%;
+    height:330px;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width:375px){
+  .Teste4{
+    width:323px;
+    margin-left:-30px;
+    font-size:12px;
+  }
+}
+@media screen and (max-width:375px){
+  .Teste4 .BtnA{
+    width:275px;
+    height:50px;
+  }
+}
+@media screen and (max-width:375px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 375px*/
+
+/*Como podemos ajudar 375px*/
+
+@media screen and (max-width: 375px){
+  #Elemento{
+    width:100%;
+    background:red;
+    height:1400px;
+    margin:0px;
+    padding:1em 0em 2em;
+    flex-direction:column;
+    margin-left:auto;
+
+  }
+  }
+
+@media screen and (max-width: 375px){
+  #Elemento1{
+    width:100%;
+    margin:0px;
+    padding: 0px;
+    flex-direction:column;
+    margin-left:auto;
+  }
+  }
+@media screen and (max-width:375px){
+  #Elemento1 .ajuda{
+    width:340px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 375px*/
+
+/*Nosso Servico 375px*/
+@media screen and (max-width: 375px){
+  #servico{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width: 375px){
+  .lista{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:0px;
+  }
+}
+
+@media screen and (max-width: 375px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 375px){
+  #servico .imgS{
+   display:none;
+  }
+  }
+@media screen and (max-width:375px){
+  .lista button{
+    text-align:center;
+    margin-left:30px;
+  }
+  }
+
+/*Nosso servico 375px*/
+
+/*Analise de Risco 375px*/
+@media screen and (max-width:375px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:375px){
+  #risco .analise{
+    width:300px;
+    height:400px;
+    position:relative;
+    
+  }
+  }
+/*fim Analise de Risco 375px*/
+
+/*Quem somos 375px*/
+@media screen and (max-width:375px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:375px){
+  #Texto{
+    padding:0px;
+    height:400px;
+    width:365px;
+    font-size:13px;
+    margin-left:5px;
+  }
+}
+
+@media screen and (max-width:375px){
+  #Texto .BtnA{
+    margin-left:40px;
+  }
+}
+ @media screen and (max-width:375px){
+  #somos .imgQ{
+    margin-left:auto;
+    width:270px;
+    height:400px;
+    padding:10px;   
+  }
+ }
+ /*Fim Quem somos 375px*/
+
+ /*Porque somos 375px*/
+
+@media screen and (max-width:375px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    position:relative;
+  }
+}
+
+@media screen and (max-width:375px){
+  #container4{
+    width:350px;
+    padding:0px;
+    position:relative;
+    flex-direction:column;
+  }
+ }
+ /*Fim Porque somos 375px*/
+
+ /*Contato 375px */
+ @media screen and (max-width:375px){
+  #classDeus{
+    width:375px;
+  
+    position:relative;
+    margin:0px;
+    padding:0px;
+
+  }
+ }
+
+ @media screen and (max-width:375px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    flex-direction:column;
+    padding:auto;
+    height:250px;
+
+    
+  }
+ }
+
+ @media screen and (max-width:375px){
+  #email{    
+    width:290px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 375px*/
+
+
+ /*  --->    %360px      <--- */
+
+
+ /*Topo 360px*/
+@media screen and (max-width:360px){
+  #container1{
+    width:100%;
+    height:260px;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width:360px){
+  .Teste4{
+    width:340px;
+    font-size:12px;
+    margin:0px;
+    padding:2px;
+    margin-left:5px;
+
+  }
+}
+@media screen and (max-width:360px){
+  .Teste4 .BtnA{
+    width:275px;
+    height:50px;
+  }
+}
+@media screen and (max-width:360px){
+  .Teste4 .Logo{
+    width:280px;
+    height:60px;
+  }
+}
+/*Fim Topo 360px*/
+
+/*Como podemos ajudar 360px*/
+
+@media screen and (max-width: 360px){
+  #Elemento{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column;
+  }
+  }
+
+@media screen and (max-width: 360px){
+  #Elemento1{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column;
+  }
+  }
+@media screen and (max-width:360px){
+  #Elemento1 .ajuda{
+    width:340px;
+    height: 250px;
+    margin:10px;
+    position:relative;
+  }
+  }
+
+/*Como podemos ajudar 360px*/
+
+/*Nosso Servico 360px*/
+@media screen and (max-width: 360px){
+  #servico{
+    width:100%;
+    position:relative;
+    margin:0px;
+    padding:0px;
+  }
+}
+@media screen and (max-width: 360px){
+  .lista{
+    width:100%;
+    position:relative;
+    margin:0px;
+  }
+}
+
+@media screen and (max-width: 360px){
+.lista .Titulo{
+  text-align:center;
+  font-size:5;
+  
+}
+  }
+@media screen and (max-width: 360px){
+  #servico .imgS{
+   display:none;
+  }
+  }
+@media screen and (max-width:360px){
+  .lista button{
+    text-align:center;
+  }
+  }
+
+/*Nosso servico 360px*/
+
+/*Analise de Risco 360px*/
+@media screen and (max-width:360px){
+  #risco{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:650px;
+  }
+  }
+@media screen and (max-width:360px){
+  #risco .analise{
+    width:300px;
+    height:400px;
+    position:relative;
+    
+  }
+  }
+/*fim Analise de Risco 360px*/
+
+/*Quem somos 360px*/
+@media screen and (max-width:360px){
+  #somos{
+    width:100%;
+    margin:0px;
+    padding:0px;
+    flex-direction:column-reverse;
+  }
+ }
+@media screen and (max-width:360px){
+  #Texto{
+    padding:1em 0em 2em;
+    height:400px;
+    width:350px;
+    font-size:13px;
+    margin-left:5px;
+  }
+}
+
+@media screen and (max-width:360px){
+  #Texto .BtnA{
+    margin-left:38px;
+  }
+}
+ @media screen and (max-width:360px){
+  #somos .imgQ{
+    margin-left:auto;
+    width:270px;
+    height:400px;
+    padding:10px;   
+  }
+ }
+ /*Fim Quem somos 360px*/
+
+ /*Porque somos 360px*/
+
+@media screen and (max-width:360px){  
+  #Elemento6{
+    width:100%;
+    margin:0px;
+    padding:1em 0em 1em;
+    position:relative;
+  }
+}
+
+@media screen and (max-width:360px){
+  #container4{
+    width:350px;
+    padding:0px;
+    position:relative;
+    flex-direction:column;
+  }
+ }
+ /*Fim Porque somos 360px*/
+
+ /*Contato 360px */
+ @media screen and (max-width:360px){
+  #classDeus{
+    width:360px;  
+    position:relative;
+    margin:0px;
+    padding:1em 0em 1em;
+
+  }
+ }
+
+ @media screen and (max-width:360px){
+  #contato{
+    justify-content:center;
+    width:300px;
+    flex-direction:column;
+    padding:auto;
+    height:250px;
+
+    
+  }
+ }
+
+ @media screen and (max-width:360px){
+  #email{    
+    width:290px;
+    height:80px;
+    font-size:14px;
+    margin:5px;
+  }
+ }
+
+
+ /*Fim Contato 360px*/
